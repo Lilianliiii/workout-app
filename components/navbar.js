@@ -1,6 +1,6 @@
 import Link from "next/link";
-import styles from "../styles/Navbar.module.css";
-import { supabase } from "../utils/supabase";
+import styles from "../styles/navbar.module.css";
+import { supabase } from "./supabase"
 
 const Navbar = ({ session }) => {
   return (
