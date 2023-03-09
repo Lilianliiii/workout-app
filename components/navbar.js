@@ -10,6 +10,7 @@ const Navbar = ({ session }) => {
       </div>
       {session?.user ? (
         <ul className={styles.navContent}>
+          {/* Link to the home page "/" */}
           <Link href="/">
             <li className={styles.name}>Home</li>
           </Link>
